@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"experimentalDecorators": true,
+		"module": "system"
+	},
+	"exclude": [
+		"node_modules",
+		"src/AureliaTs.Web/wwwroot/jspm_packages"
+	]
+}

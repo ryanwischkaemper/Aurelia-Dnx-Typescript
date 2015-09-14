@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E6608173-6164-408C-A7A2-260A8B7E5F3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00882031-68A9-4C20-986E-6F2F1364C035}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AureliaTs.Web", "src\AureliaTs.Web\AureliaTs.Web.xproj", "{64E1F1EE-2821-4488-9861-9C54170B8E5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64E1F1EE-2821-4488-9861-9C54170B8E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E1F1EE-2821-4488-9861-9C54170B8E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E1F1EE-2821-4488-9861-9C54170B8E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E1F1EE-2821-4488-9861-9C54170B8E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64E1F1EE-2821-4488-9861-9C54170B8E5E} = {E6608173-6164-408C-A7A2-260A8B7E5F3A}
+	EndGlobalSection
+EndGlobal
